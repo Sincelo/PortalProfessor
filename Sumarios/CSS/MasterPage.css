@@ -1,0 +1,192 @@
+﻿html, body {
+    height: 100%;
+    width:100%; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.cssAula
+{ 
+    width:100%;
+    height:100%;
+    position:absolute;  
+    overflow:hidden;
+} 	  
+
+.cssAulaActual
+{ 
+    width:100%;
+    height:100%;
+    position:absolute;  
+    overflow:hidden;
+    top:0px;
+} 	  
+    
+.cssHeader_LogotipoBack 
+{
+	background-position: center top;
+	background-repeat: no-repeat;
+	position: absolute; 
+	width: 700px; 
+	height: 195px; 
+	z-index: 2; 
+	left: 158px; 
+	top: 0px
+}    
+	
+.cssHeader_LogotipoFront 
+{
+	background-image: url('../Imagens/header_LogotipoFront.png');
+	background-repeat: no-repeat;
+	background-position:center top;
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+	z-index: 2;  
+	}
+	
+.cssHeader 
+{
+	background-repeat: no-repeat;
+	position: absolute; 
+	width: 98%; 
+	height: 27%; 
+	z-index: 2; 
+	left: 1%; 
+	top: 1%;
+	}	
+	
+.cssLogotipo 
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../Imagens/logotipo.png');
+	position:relative; 
+	width: 124px; 
+	z-index: 3; 
+	left: 32px; 
+	top: 10px;  
+	height: 111px;
+	}
+	
+.cssLogotipoEscola
+{
+	position:absolute;
+	top:1px;
+    left: 10px;
+    }	
+    
+.cssDivLogin
+{
+	position: absolute; 
+	width: 174px; 
+	z-index: 3; 
+	height: 133px; 
+	top: 20px;
+    right: 20px;
+}    
+
+.cssDivUtilizador
+{
+	position: absolute; 
+	width: 251px; 
+	z-index: 3; 
+	height: 133px; 
+	top: 13px;
+	right: 20px;
+}    
+	
+.cssPassword
+{	
+	position: absolute; 
+	top: 55px; 
+	left: 0px; 
+	height: 106px;
+	}
+	
+.cssDivBtnLogin
+{
+	position: absolute; 
+	top: 135px; 
+	left:75px;
+	}
+	
+.cssBtnLogin
+{
+	font-family:Verdana;
+	font-size:11px; 
+	color:White;
+	font-weight:bold;
+	Width:65px;
+	Height:20px;
+	background-color:#f37020;
+	}	
+	
+.cssDivNomeEscola
+{
+	position: absolute; 
+	vertical-align:middle; 
+	width: 578px; 
+	height: 30px; 
+	z-index: 2; 
+	left: 15px; 
+	top: 138px; 
+	font-family: 'Trebuchet MS'
+}	
+  
+.cssDivContentPlace 
+{
+	position: absolute; 
+	width: 950px; 
+	height: 460px; 
+	z-index: 1; 
+	left: 20px; 
+	top: 180px;
+	background-color:White;   
+}    
+
+.cssDivRodape
+{
+	background-color: #F2B893;
+	position: absolute; 
+	width: 100%; 
+	height: 25px; 
+	z-index: 1; 
+	left: 0; 
+	top: 623px;
+	}
+	
+.cssDivLogo_QuintaSinfonia
+{
+	position:absolute;
+	left:935px;
+	top: 1px;
+    } 
+    
+.cssDivLogo_PAAE
+{
+	position:absolute;
+	left:86px;
+    top: 1px;
+    right: 884px;
+    }  
+         
+.cssDivCopyRight
+{
+	position:absolute;
+	left:300px;
+	font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    top: 4px;
+    width: 582px;
+    height: 16px;
+    }   	
+    
+.cssDivHoras
+{
+	position:absolute;
+	top: 152px; 
+    right:40px; 
+	text-align:right;
+	}

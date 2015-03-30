@@ -1,0 +1,75 @@
+﻿body {
+}
+
+.cssAlternativeRowColor
+{
+	background:#F2F2F2; 
+	}
+	
+.cssTab
+{
+	background-color:white;
+	color:White; 
+	filter:alpha(opacity=75);
+    -moz-opacity:0.75;    
+	opacity:0.75; 
+	}    
+	
+.cssBtnPresenca
+{
+	font-family:Verdana;
+	font-size:11px; 
+	color:White;
+	font-weight:bold;
+	Width:80px;
+	Height:30px;
+	background-color:#f37020;
+	}	
+	
+.PopupPanelModalArea
+{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color:silver;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+	z-index: 99;
+	border: 0;
+	-moz-opacity: 0.60;
+}
+
+.cssBtnMarcarPresenca
+{
+	font-family:Verdana;
+	font-size:11px; 
+	color:White;
+	font-weight:bold;
+	Width:130px;
+	Height:30px;
+	background-color:#f37020;
+}	
+
+div.RadComboBoxDropDown_Office2007 .rcbSeparator
+ {
+     color: black;
+     background-color:Transparent;
+     font-style:italic;
+     font-weight:bold;
+ }
+ 
+.cssFundoTranslucido{
+    background-color: rgba(150,190,255,0.4);
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1,startColorStr="#E6FFFFFF",endColorStr="#E6FFFFFF");
+    -ms-filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1,startColorStr="#E6FFFFFF",endColorStr="#E6FFFFFF");
+}
+.cssConteudoFundoTranslucido {
+    
+}
+
+.cssCantosArredondados
+{
+    border-radius:5px;
+    -moz-border-radius:5px; /* Old Firefox */
+}

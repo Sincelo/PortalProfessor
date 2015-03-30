@@ -1,0 +1,45 @@
+﻿.cssLblAnos
+{
+	font-family:Verdana;
+	font-size:10pt;  
+	font-weight:bold; 
+	position:absolute;
+	top:10px;
+	left:15px;
+	}	
+	
+.cssLblTurmas
+{
+	font-family:Verdana;
+	font-size:10pt;  
+	font-weight:bold; 
+	position:absolute;
+	top:10px;
+	left:210px;
+	}
+		
+.cssLblDisciplinas
+{
+	font-family:Verdana;
+	font-size:10pt;  
+	font-weight:bold; 
+	position:absolute;
+	top:10px;
+	left:410px; 
+	}
+	
+.cssModal
+{
+    background-image:url('../Imagens/fundoModal.png');
+    }
+    
+.rsCategoryGreen
+{
+    color:Green;
+    }
+    
+.rsCategoryRed
+{
+    color:Red;
+    }
+

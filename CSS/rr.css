@@ -1,0 +1,126 @@
+.navbar-nav > li > a {padding-top:7px !important; padding-bottom:8px !important;}
+.navbar {min-height:32px !important}
+.navbar-header {height:32px !important}
+
+.navbar-toggle{margin-top:0px}
+
+.container {
+	width: 100%;
+}
+
+.navbar-inverse {
+	height: 35px !important;
+	background: -webkit-linear-gradient(#686868, #3b3b3b); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#686868, #3b3b3b); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#686868, #3b3b3b); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#686868, #3b3b3b); /* Standard syntax */
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	background: -webkit-linear-gradient(#3b3b3b, #686868); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#3b3b3b, #686868); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#3b3b3b, #686868); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#3b3b3b, #686868); /* Standard syntax */
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	border-left: 1px solid #3b3b3b;
+	border-right: 1px solid #686868;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 11pt;
+	color: white !important;
+}
+
+.iniciarsessao:hover {
+	background: -webkit-linear-gradient(#3b3b3b, #686868); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#3b3b3b, #686868); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#3b3b3b, #686868); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#3b3b3b, #686868); /* Standard syntax */
+}
+
+.iniciarsessao {
+	position: absolute;
+	width: 150px;
+	height: 35px;
+	top: 0px;
+	left: 100%;
+	margin-left: -250px;
+	z-index: 10000;
+	padding: 5px;
+	text-align: center;
+	background: -webkit-linear-gradient(#686868, #3b3b3b); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#686868, #3b3b3b); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#686868, #3b3b3b); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#686868, #3b3b3b); /* Standard syntax */
+	border-left: 1px solid #3b3b3b;
+	border-right: 1px solid #686868;
+}
+
+.iniciarsessao > a  {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 11pt;
+	color: white;
+	text-decoration: none;
+}
+
+#loginbox  input[type="text"], input[type="password"]{
+	width: 100px;
+}
+
+#loginbox {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	display: none;
+	padding: 5px;
+	width: 200px;
+	height: 100px;
+	top: 132px;
+	left: -10px;
+	margin-top: -100px;
+	background-color: #EAEAEA;
+	border-radius: 5px;
+}
+
+.dropdown-menu .sub-menu {
+    position: relative;
+    top: 300px;
+    margin-top: -330px;
+	opacity: 0;
+    left: 100%;
+	
+    -webkit-transition: opacity 500ms ease-out;
+    -moz-transition: opacity 500ms ease-out;
+    -o-transition: opacity 500ms ease-out;
+    transition: opacity 500ms ease-out;
+}
+
+.dropdown-menu li:hover .sub-menu {
+	opacity: 1;
+}
+
+.sub-menu .sub-sub-menu {
+    left: 100%;
+    position: relative;
+    top: 300px;
+    visibility: hidden;
+    margin-top: -330px;
+	opacity: 0;
+	
+    -webkit-transition: opacity 500ms ease-out;
+    -moz-transition: opacity 500ms ease-out;
+    -o-transition: opacity 500ms ease-out;
+    transition: opacity 500ms ease-out;
+}
+
+.sub-menu li:hover .sub-sub-menu {
+    visibility: visible;
+	opacity: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+

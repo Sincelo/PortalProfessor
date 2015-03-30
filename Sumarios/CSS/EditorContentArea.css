@@ -1,0 +1,11 @@
+﻿body 
+{
+    font-family: Arial, Verdana, Tahoma !important; 
+    font-size: 10pt !important;
+}
+
+iframe
+{
+    height: 50px !important;
+    background-color:blue;    
+}
